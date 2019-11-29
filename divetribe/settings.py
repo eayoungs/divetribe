@@ -28,7 +28,7 @@ SECRET_KEY = '&=^xv4szdd_#=n+m#5#2ld)z193px0f#19hf!b087%+ke3q2me'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['divetribe.org']
+ALLOWED_HOSTS = ['divetribe.org', 'localhost']
 
 
 # Application definition
