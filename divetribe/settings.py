@@ -26,9 +26,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&=^xv4szdd_#=n+m#5#2ld)z193px0f#19hf!b087%+ke3q2me'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['divetribe.org', 'localhost']
+ALLOWED_HOSTS = ['example.com']
 
 
 # Application definition
@@ -197,3 +197,5 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+from .ENV_VARS import *
